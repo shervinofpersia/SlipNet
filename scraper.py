@@ -11,6 +11,7 @@ TEHRAN_TZ = ZoneInfo("Asia/Tehran")
 CHANNELS = [
     "xgvpn",
     "appxa",
+    "slipnet_chat",
     "appxa2",
     "IRNOTPHONE",
     "IRAN_V2RAY1",
@@ -58,7 +59,7 @@ def generate_output(per_channel_data: OrderedDict, total_unique: int) -> str:
 
     lines = []
     lines.append("☬Exclusive SHΞN™ made")
-    lines.append("Live SlipNet Node Collector")
+    lines.append("Live SlipNet🪽 Collector")
     lines.append(f"Last update: {now_str}      Total node : {total_unique}   Next refresh: {next_refresh}")
     lines.append("")  # خط خالی قبل از اولین بخش
 
@@ -66,7 +67,7 @@ def generate_output(per_channel_data: OrderedDict, total_unique: int) -> str:
         count = len(links)
         if count == 0:
             continue
-        lines.append(f"Slipnet nod from : {ch} {count} Node")
+        lines.append(f"☬Slipnet Node From : {ch} {count} Node")
         lines.append("")  # خط خالی بعد از عنوان
         # هر کانفیگ در یک خط مجزا (بدون کاراکتر اضافی)
         for link in links:
