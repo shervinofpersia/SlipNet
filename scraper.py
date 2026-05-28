@@ -13,6 +13,8 @@ CHANNELS = [
     "npvtunel_karing_hiddify",
     "appxa",
     "RavenAzad",
+    "slipnet11",
+    "JavidanNet",
     "appxa2",
     "baraye_azadi_gp",
     "amir_webstudio",
